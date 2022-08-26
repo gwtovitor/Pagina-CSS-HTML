@@ -1,0 +1,249 @@
+body p, h1, h2, input, textarea {
+    margin: 0;
+        font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#navbar {
+    background-color: #171717;
+    color: white;
+    padding: 0 15px;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    
+}
+#navbar h2, #navbar ul, #lista-navbar, #lista-navbar li{
+    display: inline-block; /* colocar itens lado a lado */
+}
+#navbar h2{
+    margin: 0;
+    line-height: 60px;    /* mesma altura da navbar */
+    margin-left: 55px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+#navbar img{
+    height: 40px;
+    position: absolute; 
+    top: 10px; /* distancia da altura */
+}
+
+#navbar nav{
+    float: right; /* enviando lista navbar para direitoa */
+}
+#navbar ul {
+    margin-top: 22px;
+    margin-right: 50px;
+}
+
+#navbar li {
+margin: 0 10px;
+}
+#lista-navbar li a {
+    text-decoration: none;
+    color: white;
+}
+#lista-navbar li a:hover {
+        color: red;
+        border-bottom: 1px solid white;    
+}
+/*banner */
+
+#banner-inf {
+    height: 70vh;
+    background-image: url(/IMG/bk.gif);
+    background-size: 100%;
+    background-attachment:fixed;
+    padding-top: 15vh;
+    
+}
+#banner-inf {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+   
+}
+#banner-inf p {
+    font-weight: bold;
+    background-color: white;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 3px;
+    color: black;
+}
+#banner-inf img{
+    height: 120px;
+    border-radius: 50%; 
+    background-color: red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px solid white;
+}
+
+#seção {
+    text-align: center;
+    background-color: #171717;
+    color: white;
+    padding-top: 50px;
+    height: 350px;
+}
+#seção h2 {
+    margin-bottom: 20px;
+}
+#seção p {
+    max-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+#skill {
+    margin-top: -80px;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    align-items: center;
+}
+#skill .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.skill-container {
+    text-align: center;
+    padding: 60px 80px;
+}   
+.central {
+    border-left: 1px solid black;
+    border-right : 1px solid black;
+
+}
+.skill-container img{
+    height: 100px;
+    
+    margin-bottom: 25px;
+    border-top: 1px solid black;
+    border-right:  4px solid  black;
+    border-left: 1px solid  black;
+    border-bottom: 4px solid  black;
+
+}
+.skill-container .Subtitulo {
+    font-weight: bold;
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.skill-container p{
+    line-height: 25px;
+    text-align: center;
+}
+
+ #job-secao {
+    text-align: center;
+    padding-top: 50px;
+ }
+ #job-secao h2{
+    color:black;
+    margin-bottom: 30px
+ }
+ #job-secao p{
+    margin-bottom: 50px;
+ }
+ #job-secao a{
+    font-weight: bold;
+    color: blue;
+ }
+
+ .job-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*dando espacamento nas imagens */
+    max-width: 1200px;
+    margin-left: 80px;
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+.job-box {
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 5px;
+
+}
+.n1{
+    background-image: url(/IMG/cpu.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.n2{
+    background-image: url(/IMG/fone.jpg);
+    background-position: auto;
+    background-size: 95%;
+    background-repeat: no-repeat;
+}
+.n3{
+    background-image: url(/IMG/monitpr.jpg);
+    background-repeat: no-repeat;
+}
+.n4{
+    background-image: url(/IMG/note.jpg);
+    background-repeat: no-repeat;
+}
+
+.n5{
+    background-image: url(/IMG/ram.jpg);
+
+    background-repeat: no-repeat;
+}
+.n6{
+    background-image: url(/IMG/ssd.jpg);
+    background-repeat: no-repeat;
+}
+
+
+footer {
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer img{
+    height: 50px;
+    margin: 30px 0;
+    border-radius: 50%;
+}
+footer p{
+    margin-top: 25px;
+}
+footer form{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer input, footer textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+ footer .detail {
+    font-weight: bold;
+ }
